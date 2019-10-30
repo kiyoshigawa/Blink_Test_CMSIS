@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"stm32f070x6.h": "c",
+			"core_cm0.h": "c"
+		}
+	}
+}
