@@ -104,6 +104,9 @@ AS_INCLUDES =
 # C includes
 C_INCLUDES =  \
 -Iinc \
+-Idrivers/CMSIS/Device/ST/STM32F0xx/Include \
+-Idrivers/CMSIS/Include \
+-Idrivers/CMSIS/Include \
 -Idrivers
 
 

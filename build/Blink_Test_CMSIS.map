@@ -392,15 +392,15 @@ OUTPUT(build/Blink_Test_CMSIS.elf elf32-littlearm)
  .comment       0x000000000000002b       0x2c /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
  .comment       0x000000000000002b       0x2c /usr/lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtend.o
 
-.debug_info     0x0000000000000000      0x480
- .debug_info    0x0000000000000000      0x2cd build/main.o
- .debug_info    0x00000000000002cd       0xa3 build/startup_stm32f070x6.o
- .debug_info    0x0000000000000370      0x110 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+.debug_info     0x0000000000000000      0x482
+ .debug_info    0x0000000000000000      0x2cf build/main.o
+ .debug_info    0x00000000000002cf       0xa3 build/startup_stm32f070x6.o
+ .debug_info    0x0000000000000372      0x110 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
 
-.debug_abbrev   0x0000000000000000      0x21b
- .debug_abbrev  0x0000000000000000      0x14f build/main.o
- .debug_abbrev  0x000000000000014f       0x12 build/startup_stm32f070x6.o
- .debug_abbrev  0x0000000000000161       0xba /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+.debug_abbrev   0x0000000000000000      0x21d
+ .debug_abbrev  0x0000000000000000      0x151 build/main.o
+ .debug_abbrev  0x0000000000000151       0x12 build/startup_stm32f070x6.o
+ .debug_abbrev  0x0000000000000163       0xba /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
 
 .debug_loc      0x0000000000000000       0xc4
  .debug_loc     0x0000000000000000       0x40 build/main.o
@@ -418,10 +418,10 @@ OUTPUT(build/Blink_Test_CMSIS.elf elf32-littlearm)
  .debug_ranges  0x0000000000000000       0x20 build/main.o
  .debug_ranges  0x0000000000000020       0x20 build/startup_stm32f070x6.o
 
-.debug_line     0x0000000000000000      0x23b
- .debug_line    0x0000000000000000       0xf3 build/main.o
- .debug_line    0x00000000000000f3       0x88 build/startup_stm32f070x6.o
- .debug_line    0x000000000000017b       0xc0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+.debug_line     0x0000000000000000      0x25d
+ .debug_line    0x0000000000000000      0x115 build/main.o
+ .debug_line    0x0000000000000115       0x88 build/startup_stm32f070x6.o
+ .debug_line    0x000000000000019d       0xc0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
 
 .debug_str      0x0000000000000000      0x347
  .debug_str     0x0000000000000000      0x1e6 build/main.o
