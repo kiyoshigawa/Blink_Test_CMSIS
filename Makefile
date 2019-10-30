@@ -105,9 +105,7 @@ AS_INCLUDES =
 C_INCLUDES =  \
 -Iinc \
 -Idrivers/CMSIS/Device/ST/STM32F0xx/Include \
--Idrivers/CMSIS/Include \
--Idrivers/CMSIS/Include \
--Idrivers
+-Idrivers/CMSIS/Include 
 
 
 # compile gcc flags
