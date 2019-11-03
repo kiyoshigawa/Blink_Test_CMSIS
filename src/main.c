@@ -8,6 +8,9 @@ void delay(uint32_t delay_cycles){
 int main(void){
   //init things:
 
+  //Setup External Oscillator:
+
+
   //GPIO Init:
   RCC->AHBENR |= RCC_AHBENR_GPIOAEN; //enable clock to GPIOA
   GPIOA->MODER |= GPIO_MODER_MODER5_0; //set the mode to output for PA5.
