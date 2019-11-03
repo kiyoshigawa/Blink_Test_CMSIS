@@ -9,7 +9,7 @@ int main(void){
   //init things:
 
   //Setup External Oscillator:
-
+  
 
   //GPIO Init:
   RCC->AHBENR |= RCC_AHBENR_GPIOAEN; //enable clock to GPIOA
